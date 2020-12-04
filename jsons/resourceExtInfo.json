@@ -1,0 +1,11 @@
+{
+    "playCount": 952629120,
+    "highQuality": false,
+    "artists":"$[]artist",
+    "action": "play_all_song_from_current_index",
+    "actionType": "client_customized",
+    "valid": true,
+    "alg": "alg_hp_tr_lan_off_src",
+    "logInfo": "{\"category1\":\"tag\",\"category2\":\"CHINESE\"}",
+    "songData":"$songData"
+}

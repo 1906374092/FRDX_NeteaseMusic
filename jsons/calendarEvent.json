@@ -1,0 +1,19 @@
+{
+    "id": "artistPreviewEvent_11972054_301102",
+    "eventType": "REP_TRAILER",
+    "onlineTime": 1605232800000,
+    "offlineTime": 1605232800000,
+    "tag": "",
+    "title": "预告-Billie Eilish最新作品",
+    "imgUrl": "http://p1.music.126.net/Sgwqx8HCjOvGNxWFHQX_sg==/109951165458435408.jpg",
+    "canRemind": true,
+    "reminded": false,
+    "targetUrl": "orpheus://nm/musicCalendar/eventDetail?eventID=artistPreviewEvent_11972054_301102&eventType=REP_TRAILER&eventRefer=inside_click",
+    "remindText": "上架提醒",
+    "logInfo":"",
+    "alg": "",
+    "resourceType": "SONG",
+    "resourceId": "",
+    "eventStatus": "PREVIEW",
+    "remindedText": "已设置提醒"
+}

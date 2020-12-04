@@ -1,0 +1,10 @@
+{
+    "creativeType": "list",
+    "creativeId": "924680166",
+    "action": "orpheus://playlist/924680166?autoplay=0&referLog=HOMEPAGE_BLOCK_PLAYLIST_RCMD",
+    "actionType": "orpheus",
+    "alg": "featured",
+    "position": 0,
+    "uiElement":"$uiElement",
+    "resources":"$[]resource"
+}

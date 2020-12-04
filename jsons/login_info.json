@@ -1,0 +1,7 @@
+{
+	"loginType": 1,
+	"code": 200,
+	"token": "e00077d3bee1ec3922cd28363750019c375ddf9393097812e8b4b18933fb109433a649814e309366",
+	"profile": "$user_info",
+	"cookie": "NMTID=00OZdDeVTircPkUyUmdgOhEBGheqMsAAAF1eNv1oQ; Expires=Mon, 28-Oct-2030 09:34:42 GMT; Path=/;MUSIC_U=e00077d3bee1ec3922cd28363750019c375ddf9393097812e8b4b18933fb109433a649814e309366; Expires=Sat, 14-Nov-2020 09:34:42 GMT; Path=/;__remember_me=true; Expires=Sat, 14-Nov-2020 09:34:42 GMT; Path=/;__csrf=9c7b4619efa70d7d28141178aece1ec1; Expires=Sat, 14-Nov-2020 09:34:52 GMT; Path=/"
+}

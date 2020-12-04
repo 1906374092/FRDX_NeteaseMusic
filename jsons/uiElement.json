@@ -1,0 +1,7 @@
+{
+  "mainTitle":"$titleModel",
+  "subTitle": "$titleModel",
+  "button": "$buttonModel",
+  "image":"$imageModel",
+  "labelTexts":"$[]String"
+}

@@ -57,4 +57,9 @@ class Tools {
         int.parse(millSecond);
     return Duration(milliseconds: total);
   }
+
+  static String getFullDateTimeString(int timeInterval) {
+    DateTime resultDate = DateTime.fromMillisecondsSinceEpoch(timeInterval);
+    return "${resultDate.year}年${resultDate.month}月${resultDate.day}日";
+  }
 }

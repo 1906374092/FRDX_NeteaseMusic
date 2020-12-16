@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-
+import "avatardetail.dart";
 part 'user_info.g.dart';
 
 @JsonSerializable()
@@ -21,7 +21,7 @@ class User_info {
     num djStatus;
     bool mutual;
     String remarkName;
-    String expertTags;
+    List expertTags;
     num authStatus;
     bool followed;
     String backgroundUrl;
@@ -35,7 +35,7 @@ class User_info {
     num followeds;
     num follows;
     num eventCount;
-    String avatarDetail;
+    Avatardetail avatarDetail;
     num playlistCount;
     num playlistBeSubscribedCount;
     

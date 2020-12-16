@@ -11,7 +11,8 @@ Reducer<GlobalPlayerButtonsbarState> buildReducer() {
   );
 }
 
-GlobalPlayerButtonsbarState _onAction(GlobalPlayerButtonsbarState state, Action action) {
+GlobalPlayerButtonsbarState _onAction(
+    GlobalPlayerButtonsbarState state, Action action) {
   final GlobalPlayerButtonsbarState newState = state.clone();
   return newState;
 }

@@ -1,10 +1,13 @@
 import 'package:fish_redux/fish_redux.dart';
 
-//TODO replace with your own action
-enum GlobalPlayerButtonsbarAction { action }
+enum GlobalPlayerButtonsbarAction { action, tapComment }
 
 class GlobalPlayerButtonsbarActionCreator {
   static Action onAction() {
     return const Action(GlobalPlayerButtonsbarAction.action);
+  }
+
+  static Action onTapComment() {
+    return const Action(GlobalPlayerButtonsbarAction.tapComment);
   }
 }

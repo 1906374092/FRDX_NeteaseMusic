@@ -23,7 +23,7 @@ User_info _$User_infoFromJson(Map<String, dynamic> json) {
     ..djStatus = json['djStatus'] as num
     ..mutual = json['mutual'] as bool
     ..remarkName = json['remarkName'] as String
-    ..expertTags = json['expertTags'] as String
+    ..expertTags = json['expertTags'] as List
     ..authStatus = json['authStatus'] as num
     ..followed = json['followed'] as bool
     ..backgroundUrl = json['backgroundUrl'] as String
@@ -37,7 +37,9 @@ User_info _$User_infoFromJson(Map<String, dynamic> json) {
     ..followeds = json['followeds'] as num
     ..follows = json['follows'] as num
     ..eventCount = json['eventCount'] as num
-    ..avatarDetail = json['avatarDetail'] as String
+    ..avatarDetail = json['avatarDetail'] == null
+        ? null
+        : Avatardetail.fromJson(json['avatarDetail'] as Map<String, dynamic>)
     ..playlistCount = json['playlistCount'] as num
     ..playlistBeSubscribedCount = json['playlistBeSubscribedCount'] as num;
 }

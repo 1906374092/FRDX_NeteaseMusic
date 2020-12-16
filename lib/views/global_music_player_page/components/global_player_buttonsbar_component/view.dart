@@ -34,9 +34,14 @@ Widget buildView(GlobalPlayerButtonsbarState state, Dispatch dispatch,
             color: ColorDefine.Inactive_Grey,
           ),
           Spacer(),
-          Icon(
-            XCIcons.comment,
-            color: ColorDefine.Inactive_Grey,
+          GestureDetector(
+            onTap: () {
+              dispatch(GlobalPlayerButtonsbarActionCreator.onTapComment());
+            },
+            child: Icon(
+              XCIcons.comment,
+              color: ColorDefine.Inactive_Grey,
+            ),
           ),
           Spacer(),
           Icon(

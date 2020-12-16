@@ -51,4 +51,10 @@ class XCIcons {
       const IconData(0xe660, fontFamily: iconFamily, matchTextDirection: true);
   static const IconData delete =
       const IconData(0xe6cc, fontFamily: iconFamily, matchTextDirection: true);
+  static const IconData cloud_circle =
+      const IconData(0xe60f, fontFamily: iconFamily, matchTextDirection: true);
+  static const IconData like_hand =
+      const IconData(0xe607, fontFamily: iconFamily, matchTextDirection: true);
+  static const IconData like_hand_fill =
+      const IconData(0xe6c0, fontFamily: iconFamily, matchTextDirection: true);
 }

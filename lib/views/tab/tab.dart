@@ -195,25 +195,16 @@ class _TabBarControllerState extends State<TabBarController>
           inactiveColor: _inactiveColor,
         ),
         tabBuilder: (context, index) {
-          switch (index) {
-            case 0:
-              return _homePage;
-              break;
-            case 1:
-              return _videoPage;
-              break;
-            case 2:
-              return _minePage;
-              break;
-            case 3:
-              return _countryPage;
-              break;
-            case 4:
-              return _accountPage;
-              break;
-            default:
-              return _homePage;
-          }
+          return IndexedStack(
+            children: [
+              _homePage,
+              _videoPage,
+              _minePage,
+              _countryPage,
+              _accountPage
+            ],
+            index: index,
+          );
         });
   }
 }

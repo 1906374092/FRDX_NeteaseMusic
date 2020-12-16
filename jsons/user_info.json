@@ -14,7 +14,7 @@
     "djStatus": 0,
     "mutual": false,
     "remarkName": "",
-    "expertTags": "",
+    "expertTags": [],
     "authStatus": 0,
     "followed": false,
     "backgroundUrl": "https://p4.music.126.net/o3G7lWrGBQAvSRt3UuApTw==/2002210674180201.jpg",
@@ -28,7 +28,7 @@
     "followeds": 10,
     "follows": 15,
     "eventCount": 10,
-    "avatarDetail": "",
+    "avatarDetail": "$avatardetail",
     "playlistCount": 6,
     "playlistBeSubscribedCount": 0
 }

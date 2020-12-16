@@ -1,0 +1,5 @@
+{
+    "sortType": 1,
+    "sortTypeName": "按推荐排序",
+    "target": "order_by_alg"
+}

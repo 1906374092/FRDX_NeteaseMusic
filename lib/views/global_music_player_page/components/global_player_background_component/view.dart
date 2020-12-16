@@ -48,8 +48,7 @@ Widget buildView(GlobalPlayerBackgroundState state, Dispatch dispatch,
                   width: state.deviceInfo.screenWidth,
                   height: state.deviceInfo.screenHeight,
                   decoration: BoxDecoration(
-                      color: Colors.grey[900]
-                          .withOpacity(0.4)), //盒子装饰器，进行装饰，设置颜色为灰色,
+                      color: Colors.black87), //盒子装饰器，进行装饰，设置颜色为灰色,
                 ),
               ),
             ),

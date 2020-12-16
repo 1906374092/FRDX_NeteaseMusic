@@ -9,8 +9,10 @@ import 'package:zmusic_flutter/network/api.dart';
 import 'package:zmusic_flutter/utils/iconfont.dart';
 import 'package:zmusic_flutter/views/common/common_progressbar_component/action.dart';
 import 'package:zmusic_flutter/views/common/common_progressbar_component/state.dart';
+import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_background_component/action.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_centercover_component/action.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_localplaylist_component/state.dart';
+import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_topbar_component/action.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/keys.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/player_manager.dart';
 import 'package:zmusic_flutter/views/common/page_util.dart';
@@ -97,10 +99,15 @@ void _setPlayList(Context<GlobalPlayerControlpadState> ctx) async {
 void _listenMusicStatus(
     Action action, Context<GlobalPlayerControlpadState> ctx) {
   bus.on(BusEvent.AutoPlayNext, (arg) {
+    SongData song = arg;
     ctx.state.changeSongCallback != null
         ? ctx.state.changeSongCallback()
         : ApplicationManager.logger
             .w("not implement player changeSongCallback");
+    ctx.dispatch(
+        GlobalPlayerBackgroundActionCreator.onUpdateCover(song.album.picUrl));
+    ctx.dispatch(GlobalPlayerTopbarActionCreator.onUpdateInfo(
+        {"title": song.name, "author": song.artists[0].name}));
     ctx.dispatch(
         GlobalPlayerCentercoverActionCreator.onUpdatePlayingStatus(true));
     ctx.dispatch(
@@ -216,6 +223,12 @@ void _onPlayPrevious(Action action, Context<GlobalPlayerControlpadState> ctx) {
   ctx.state.changeSongCallback != null
       ? ctx.state.changeSongCallback()
       : ApplicationManager.logger.w("not implement player changeSongCallback");
+  ctx.dispatch(GlobalPlayerBackgroundActionCreator.onUpdateCover(
+      ctx.state.currentPlayList[previousIndex].album.picUrl));
+  ctx.dispatch(GlobalPlayerTopbarActionCreator.onUpdateInfo({
+    "title": ctx.state.currentPlayList[previousIndex].name,
+    "author": ctx.state.currentPlayList[previousIndex].artists[0].name
+  }));
   ctx.dispatch(
       GlobalPlayerCentercoverActionCreator.onUpdatePlayingStatus(true));
   ctx.dispatch(GlobalPlayerControlpadActionCreator.onUpdatePlayingStatus(true));
@@ -250,6 +263,12 @@ void _onPlayNext(Action action, Context<GlobalPlayerControlpadState> ctx) {
   ctx.state.changeSongCallback != null
       ? ctx.state.changeSongCallback()
       : ApplicationManager.logger.w("not implement player changeSongCallback");
+  ctx.dispatch(GlobalPlayerBackgroundActionCreator.onUpdateCover(
+      ctx.state.currentPlayList[nextIndex].album.picUrl));
+  ctx.dispatch(GlobalPlayerTopbarActionCreator.onUpdateInfo({
+    "title": ctx.state.currentPlayList[nextIndex].name,
+    "author": ctx.state.currentPlayList[nextIndex].artists[0].name
+  }));
   ctx.dispatch(
       GlobalPlayerCentercoverActionCreator.onUpdatePlayingStatus(true));
   ctx.dispatch(GlobalPlayerControlpadActionCreator.onUpdatePlayingStatus(true));

@@ -11,4 +11,5 @@ class ColorDefine {
   static const Color Light_grey_text = Color.fromARGB(255, 142, 142, 142);
   static const Color Main_widget_red = Color.fromARGB(255, 255, 36, 52);
   static const Color Main_Subtitle_Text = Color.fromARGB(255, 90, 91, 93);
+  static const Color Button_Active_Text = Color.fromARGB(255, 63, 115, 166);
 }

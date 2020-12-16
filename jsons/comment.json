@@ -1,0 +1,21 @@
+{
+    "user":"$user_info",
+    "beReplied": "null",
+    "commentId": 3435019706,
+    "content": "医生说我活不过这个月了……",
+    "status": 0,
+    "time": 1598434685447,
+    "likedCount": 1345,
+    "liked": false,
+    "expressionUrl": "null",
+    "parentCommentId": 0,
+    "repliedMark": false,
+    "pendantData": {},
+    "showFloorComment":"$floorComment",
+    "decoration": {},
+    "commentLocationType": 0,
+    "args": [],
+    "tag":"$tagData",
+    "source": {},
+    "extInfo": {}
+}

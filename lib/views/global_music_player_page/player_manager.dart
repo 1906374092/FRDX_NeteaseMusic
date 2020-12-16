@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: zhangyf
  * @Date: 2020-11-20 15:39:58
- * @LastEditTime: 2020-12-04 15:01:59
+ * @LastEditTime: 2020-12-07 14:57:33
  * @LastEditors: zhangyf
  */
 import 'package:audioplayers/audioplayers.dart';
@@ -51,26 +51,33 @@ class PlayerManager {
         totalDuration = totalTime;
       });
     });
-    player.onPlayerCompletion.listen((event) {
+    player.onPlayerCompletion.listen((event) async {
       SongData song = sonngData;
       int currentIndex = 0;
-      for (SongData item in _currentPlayList) {
+      StorageManager manager = await StorageManager.getInstance();
+      List<SongData> localList = manager.localPlayList;
+      for (SongData item in localList) {
         if (item.id == song.id) {
-          currentIndex = _currentPlayList.indexOf(item);
+          currentIndex = localList.indexOf(item);
         }
       }
       int nextIndex;
-      if (_currentPlayList.length == 1) {
+      if (localList.length == 1) {
         nextIndex = 0;
       } else {
-        if (currentIndex == _currentPlayList.length - 1) {
+        if (currentIndex == localList.length - 1) {
           nextIndex = 0;
         } else {
           nextIndex = currentIndex + 1;
         }
       }
-      bus.emit(BusEvent.PlayAudioWithSong, _currentPlayList[nextIndex]);
-      bus.emit(BusEvent.AutoPlayNext);
+      PlayListOption option = manager.playListOption;
+      if (option == PlayListOption.SingleCycle) {
+        bus.emit(BusEvent.PlayAudioWithSong, song);
+      } else {
+        bus.emit(BusEvent.PlayAudioWithSong, localList[nextIndex]);
+        bus.emit(BusEvent.AutoPlayNext, localList[nextIndex]);
+      }
     });
   }
 

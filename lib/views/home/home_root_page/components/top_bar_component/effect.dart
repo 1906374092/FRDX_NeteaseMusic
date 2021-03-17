@@ -1,9 +1,6 @@
-import 'dart:async';
-
 import 'package:fish_redux/fish_redux.dart';
 import 'package:flutter/material.dart' hide Action;
 import 'package:zmusic_flutter/router/router.dart';
-import 'package:zmusic_flutter/views/common/mini_player_component/state.dart';
 import 'action.dart';
 import 'state.dart';
 

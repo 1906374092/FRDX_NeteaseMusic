@@ -1,6 +1,4 @@
 import 'package:fish_redux/fish_redux.dart';
-import 'package:zmusic_flutter/models/index.dart';
-import 'package:zmusic_flutter/views/common/play_list_item_button_component/state.dart';
 
 import 'action.dart';
 import 'state.dart';

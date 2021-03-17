@@ -1,10 +1,7 @@
 import 'package:fish_redux/fish_redux.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:zmusic_flutter/manager/application_manager.dart';
-import 'package:zmusic_flutter/models/banners.dart';
-import 'package:zmusic_flutter/models/index.dart';
 import 'package:zmusic_flutter/utils/device_info.dart';
-import 'package:zmusic_flutter/views/common/common_button_component/state.dart';
 import 'package:zmusic_flutter/views/common/swiper_component/state.dart';
 import 'package:zmusic_flutter/views/home/home_root_page/components/country_select_component/state.dart';
 import 'package:zmusic_flutter/views/home/home_root_page/components/dragonball_component_component/state.dart';

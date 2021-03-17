@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:zmusic_flutter/utils/colors.dart';
 import 'package:zmusic_flutter/utils/iconfont.dart';
-import 'package:zmusic_flutter/views/global_music_player_page/components/keys.dart';
 import 'package:zmusic_flutter/views/common/keys.dart';
 
 import 'action.dart';

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:zmusic_flutter/manager/application_manager.dart';
 import 'package:zmusic_flutter/router/router.dart';
 import 'package:zmusic_flutter/utils/device_info.dart';
-import 'package:zmusic_flutter/views/common/page_util.dart';
 import 'package:zmusic_flutter/views/welcome/welcome.dart';
 
 void main() {

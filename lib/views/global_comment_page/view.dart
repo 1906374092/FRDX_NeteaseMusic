@@ -1,10 +1,7 @@
 import 'package:fish_redux/fish_redux.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:keyboard_avoider/keyboard_avoider.dart';
-import 'package:zmusic_flutter/utils/colors.dart';
-import 'package:zmusic_flutter/views/common/page_util.dart';
 import 'package:zmusic_flutter/views/global_comment_page/components/keys.dart';
 
 import 'action.dart';

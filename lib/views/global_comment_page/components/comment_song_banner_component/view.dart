@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:zmusic_flutter/utils/colors.dart';
 import 'package:zmusic_flutter/utils/iconfont.dart';
 
-import 'action.dart';
 import 'state.dart';
 
 Widget buildView(

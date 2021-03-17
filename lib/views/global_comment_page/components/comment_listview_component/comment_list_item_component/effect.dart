@@ -89,7 +89,12 @@ void _onShowActionSheet(Action action, Context<CommentListItemState> ctx) {
           ),
           CupertinoActionSheetAction(
             child: Text("复制评论"),
-            onPressed: () {},
+            onPressed: () {
+              Clipboard.setData(
+                  ClipboardData(text: ctx.state.commentModel.content));
+              PageUtil.showToast("复制成功");
+              Navigator.of(ctx.context).pop();
+            },
           ),
           info.profile.userId == ctx.state.commentModel.user.userId
               ? CupertinoActionSheetAction(

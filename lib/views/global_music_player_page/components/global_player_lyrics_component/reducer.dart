@@ -1,6 +1,4 @@
 import 'package:fish_redux/fish_redux.dart';
-import 'package:flutter/material.dart' hide Action;
-import 'package:zmusic_flutter/manager/notification/event_bus.dart';
 
 import 'action.dart';
 import 'state.dart';

@@ -1,6 +1,5 @@
 import 'package:fish_redux/fish_redux.dart';
 import 'package:zmusic_flutter/manager/application_manager.dart';
-import 'package:zmusic_flutter/manager/global_store/state.dart';
 import 'package:zmusic_flutter/models/index.dart';
 import 'package:zmusic_flutter/utils/device_info.dart';
 

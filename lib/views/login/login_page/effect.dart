@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:fish_redux/fish_redux.dart';
 import 'package:flutter/material.dart' hide Action;
 import 'package:zmusic_flutter/manager/application_manager.dart';
@@ -7,7 +5,6 @@ import 'package:zmusic_flutter/manager/local_storage.dart';
 import 'package:zmusic_flutter/models/index.dart';
 import 'package:zmusic_flutter/network/api.dart';
 import 'package:zmusic_flutter/router/fade.dart';
-import 'package:zmusic_flutter/router/router.dart';
 import 'package:zmusic_flutter/utils/validator.dart';
 import 'package:zmusic_flutter/views/common/page_util.dart';
 import 'package:zmusic_flutter/views/tab/tab.dart';

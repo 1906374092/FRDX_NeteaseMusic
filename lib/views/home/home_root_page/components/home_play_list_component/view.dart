@@ -1,10 +1,7 @@
 import 'package:fish_redux/fish_redux.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:zmusic_flutter/utils/colors.dart';
-import 'package:zmusic_flutter/views/home/home_root_page/components/home_play_list_component/adapter.dart';
 
-import 'action.dart';
 import 'state.dart';
 
 Widget buildView(

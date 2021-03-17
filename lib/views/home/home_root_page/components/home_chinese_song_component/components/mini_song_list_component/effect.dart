@@ -1,10 +1,6 @@
 import 'package:fish_redux/fish_redux.dart';
-import 'package:fluro/fluro.dart';
 import 'package:flutter/cupertino.dart' hide Action;
 import 'package:flutter/material.dart' hide Action;
-import 'package:zmusic_flutter/manager/application_manager.dart';
-import 'package:zmusic_flutter/manager/global_store/action.dart';
-import 'package:zmusic_flutter/manager/global_store/page.dart';
 import 'package:zmusic_flutter/manager/local_storage.dart';
 import 'package:zmusic_flutter/manager/notification/event_bus.dart';
 import 'package:zmusic_flutter/manager/notification/fishredux_broadcast.dart';

@@ -1,9 +1,7 @@
 import 'package:fish_redux/fish_redux.dart';
-import 'package:zmusic_flutter/views/global_comment_page/components/commen_playlist_banner_component/component.dart';
 import 'package:zmusic_flutter/views/global_comment_page/components/comment_bottombar_component/component.dart';
 import 'package:zmusic_flutter/views/global_comment_page/components/comment_indicator_bar_component/component.dart';
 import 'package:zmusic_flutter/views/global_comment_page/components/comment_listview_component/component.dart';
-import 'package:zmusic_flutter/views/global_comment_page/components/comment_song_banner_component/component.dart';
 import 'package:zmusic_flutter/views/global_comment_page/components/comment_topbar_component/component.dart';
 import 'package:zmusic_flutter/views/global_comment_page/components/keys.dart';
 

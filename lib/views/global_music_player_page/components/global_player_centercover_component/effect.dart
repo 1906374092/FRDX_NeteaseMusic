@@ -5,7 +5,6 @@ import 'package:fish_redux/fish_redux.dart';
 import 'package:flutter/material.dart' hide Action;
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:zmusic_flutter/manager/application_manager.dart';
-import 'package:zmusic_flutter/models/index.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_controlpad_component/action.dart';
 import 'action.dart';
 import 'state.dart';

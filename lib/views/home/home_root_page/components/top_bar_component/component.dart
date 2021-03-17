@@ -1,7 +1,4 @@
 import 'package:fish_redux/fish_redux.dart';
-import 'package:flutter/material.dart';
-import 'package:zmusic_flutter/views/common/keys.dart';
-import 'package:zmusic_flutter/views/common/mini_player_component/component.dart';
 
 import 'effect.dart';
 import 'reducer.dart';

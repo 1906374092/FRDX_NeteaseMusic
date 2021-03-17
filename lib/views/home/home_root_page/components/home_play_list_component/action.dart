@@ -1,7 +1,5 @@
 import 'package:fish_redux/fish_redux.dart';
-import 'package:zmusic_flutter/models/index.dart';
 
-//TODO replace with your own action
 enum HomePlayListAction { action, getAllData, updateOffset }
 
 class HomePlayListActionCreator {

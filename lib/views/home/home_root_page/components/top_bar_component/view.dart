@@ -1,7 +1,6 @@
 import 'package:fish_redux/fish_redux.dart';
 import 'package:flutter/material.dart';
 import 'package:zmusic_flutter/utils/iconfont.dart';
-import 'package:zmusic_flutter/views/common/keys.dart';
 import 'package:zmusic_flutter/views/home/home_root_page/components/top_bar_component/action.dart';
 
 import 'state.dart';

@@ -1,12 +1,10 @@
 import 'package:fish_redux/fish_redux.dart';
-import 'package:flutter/material.dart';
 import 'package:zmusic_flutter/manager/application_manager.dart';
 import 'package:zmusic_flutter/utils/device_info.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_background_component/state.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_buttonsbar_component/state.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_centercover_component/state.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_controlpad_component/state.dart';
-import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_localplaylist_component/state.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_lyrics_component/state.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_topbar_component/state.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/player_manager.dart';

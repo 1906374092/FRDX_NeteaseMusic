@@ -4,7 +4,6 @@ import 'package:zmusic_flutter/views/global_comment_page/components/comment_indi
 import 'package:zmusic_flutter/views/global_comment_page/components/comment_listview_component/adapter.dart';
 import 'package:zmusic_flutter/views/global_comment_page/components/comment_song_banner_component/component.dart';
 import 'package:zmusic_flutter/views/global_comment_page/components/keys.dart';
-import 'package:zmusic_flutter/views/global_comment_page/state.dart';
 
 import 'effect.dart';
 import 'reducer.dart';

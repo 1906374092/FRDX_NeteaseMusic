@@ -1,5 +1,4 @@
 import 'package:fish_redux/fish_redux.dart';
-import 'package:zmusic_flutter/manager/application_manager.dart';
 
 import 'action.dart';
 import 'state.dart';

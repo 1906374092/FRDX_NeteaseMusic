@@ -30,7 +30,7 @@ dependencies:
   flutter_spinkit:
   fluttertoast: ^7.1.1
   keyboard_avoider:
-  fish_redux: ^0.3.4
+  fish_redux:
   video_player: ^0.11.0
   flutter_seekbar:
     git: https://github.com/LiuC520/flutter_seekbar.git

@@ -1,7 +1,5 @@
 import 'package:fish_redux/fish_redux.dart';
 import 'package:flutter/services.dart';
-import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:zmusic_flutter/views/home/home_root_page/action.dart';
 import 'action.dart';
 import 'state.dart';
 

@@ -5,7 +5,6 @@ import 'package:zmusic_flutter/manager/application_manager.dart';
 import 'package:zmusic_flutter/manager/local_storage.dart';
 import 'package:zmusic_flutter/manager/notification/event_bus.dart';
 import 'package:zmusic_flutter/models/index.dart';
-import 'package:zmusic_flutter/network/api.dart';
 import 'package:zmusic_flutter/utils/iconfont.dart';
 import 'package:zmusic_flutter/views/common/common_progressbar_component/action.dart';
 import 'package:zmusic_flutter/views/common/common_progressbar_component/state.dart';

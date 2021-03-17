@@ -3,7 +3,6 @@ import 'package:zmusic_flutter/views/global_music_player_page/components/global_
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_buttonsbar_component/component.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_centercover_component/component.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_controlpad_component/component.dart';
-import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_localplaylist_component/component.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_lyrics_component/component.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/global_player_topbar_component/component.dart';
 import 'package:zmusic_flutter/views/global_music_player_page/components/keys.dart';
